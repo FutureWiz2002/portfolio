@@ -1,6 +1,7 @@
 body, html {
   margin:0;
   padding: o;
+  background-color: black;
 }
 body {
   /* background-color: black; */
@@ -42,6 +43,9 @@ nav {
   flex-direction: row  ;
   justify-content: center;
   text-align: center;
-
+  flex: 50%;
+}
+.introduction {
+  flex: 50%;
 }
   
