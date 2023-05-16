@@ -1,7 +1,7 @@
 body, html {
   margin:0;
   padding: o;
-  background-color: black;
+  background-color: grey;
 }
 body {
   /* background-color: black; */
@@ -48,4 +48,8 @@ nav {
 .introduction {
   flex: 50%;
 }
+/* .computer {
+  width: 100px;
+  height: 100px;;
+} */
   
