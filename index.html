@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- <script src="https://cdn.tailwindcss.com"></script> -->
         <link rel="stylesheet" href="./style.css">
-    <!-- <script>
+    <script>
       tailwind.config = {
         theme: {
           extend: {
@@ -24,12 +24,12 @@
           }
         }
       </style>
-      <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script> -->
+      <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <title>Hi there</title> 
   </head>
 
 
-  <body class="indigo-900">
+  <body class="bg-gray-900">
     <div class="">  
       <nav class="">
             <ol>
@@ -41,9 +41,24 @@
       </nav>
     </div>
       
-    <div class = 'intro'>
-        <canvas class="computer"></canvas>
-        <p class="introduction">Hi there, its Jabir. Scroll down to know me more</p>  
+    <div class="">
+      <div class = 'intro '>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player class="computer" src="https://assets3.lottiefiles.com/packages/lf20_w51pcehl.json"  background="transparent"  speed="1"  style="width: 600px; height: 600px;"  loop  autoplay></lottie-player>  
+        <div class="hi-there">
+          <p> 🙋🏽‍♂️ Hi there, its Jabir</p>  
+          <p>Scroll down to know me more</p>
+        </div>
+      </div>
+      <img class="arrow animate-bounce"  src="./images/arrow-down.svg" width="40px" height="40px" /> 
+    </div>
+    
+
+    <div class="education">
+      <div class="education-container">
+        <p class="uni">I am a 2A Mathematics student at The Univeristy of Waterloo. I am interested in majoring in Combinatorics and Optimization, a field of mathematics that focuses on quantum information, cryptography, graph theory etc </p>
+
+      </div>
     </div>
     <script type="module" src="/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>

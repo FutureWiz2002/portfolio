@@ -1,55 +1,59 @@
 body, html {
   margin:0;
   padding: o;
-  background-color: grey;
-}
-body {
-  /* background-color: black; */
   color: white;
   font-family:Arial, Helvetica, sans-serif;
-  /* margin: 5px 5%; */
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.5em 2em;
     background-color: black;
-    /* border-radius: 5px;
-    border-color:beige; */
-    /* border-width: 2px;; */
   }
 
 .home {
   padding-left: 5em;
 
-  }
+}
   
-  nav ol {
+nav ol {
     display: flex;
     list-style: none;
     padding: 0;
-  }
+}
   
-  nav li {
+nav li {
     margin-right: 5em;
-    font-size: larger;
-  }
+    font-size: larger; 
+}
 
 .intro {
   display: flex;
-  font-size: 50px;
-  width: 95%;
-  flex-direction: row  ;
   justify-content: center;
+  flex-direction: row  ;
   text-align: center;
   flex: 50%;
 }
-.introduction {
-  flex: 50%;
+
+p {
+  font-size: 50px;
 }
-/* .computer {
-  width: 100px;
-  height: 100px;;
-} */
+
+.hi-there {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.arrow {
+  margin: auto;
+  padding-bottom: 20px;
+
+}
+.education-container {
+  display: flex;
+  justify-content: center;
   
+}
