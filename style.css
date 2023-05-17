@@ -34,7 +34,6 @@ nav li {
   justify-content: center;
   flex-direction: row  ;
   text-align: center;
-  flex: 50%;
 }
 
 p {
@@ -49,11 +48,47 @@ p {
 
 .arrow {
   margin: auto;
-  padding-bottom: 20px;
-
+  
 }
 .education-container {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  
+  padding: 100px 10px;
+  flex:50%;
+  margin: auto;
+  align-items: center;
+
+}
+.uni {
+  padding: 10px;
+  margin: auto;
+  font-size: 40px;
+}
+
+img {
+  align-self: center;
+}
+
+/* projects  */
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+
+/* hobby section  */
+
+
+.hobby-title {
+  text-align: center;
+  font-size: 40px;
+}
+lottie-player {
+  align-self: center;
 }
