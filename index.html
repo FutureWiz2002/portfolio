@@ -31,11 +31,10 @@
 
   <body class="bg-gray-900">
     <div class="">  
-      <nav class="">
-            <ol>
-                <li class="home">Home</li>
-                <li class="projects">Projects</li>
-                <li class="education">Education</li>
+      <nav class="justify-center">
+            <ol class="bg-indigo-600 rounded-full p-5 text-xl">
+                <li class="education"><a href="#education">Education</a></li>
+                <li class="projects"><a href="#project">Projects</a></li>
                 <li class="contact">Contact</li>
             </ol>
       </nav>
@@ -53,19 +52,23 @@
       <img class="arrow animate-bounce"  src="./images/arrow-down.svg" width="40px" height="40px" /> 
     </div>
     
-
-    <div class="education">
+    <!-- education  -->
+    <div class="education" id="education">
+      <h1 class=" p-8 text-5xl text-center" id="education">Education</h1>
       <div class="education-container ">
-          <img class="animate-pulse" src="./images/Waterloo_Mathematics_Logo_vert_rev_rgb.png" height="600px" width="600px"/>
-          <p class="uni">I am a 2A Mathematics student at The Univeristy of Waterloo. I am interested in majoring in Combinatorics and Optimization, a field of mathematics that focuses on quantum information, cryptography, graph theory etc. I also love working on Frontend Projects and learning ML and AI.</p>
+          <img class="animate-pulse mx-auto " src="./images/Waterloo_Mathematics_Logo_vert_rev_rgb.png" height="600px" width="600px"/>
+          <p class="uni mx-auto">I am a 2A Mathematics student at The Univeristy of Waterloo. I am interested in majoring in Combinatorics and Optimization, a field of mathematics that focuses on quantum information, cryptography, graph theory etc. I also love working on Frontend Projects and learning ML and AI.</p>
         </div>
       </div>
     </div>
     <!-- <script type="module" src="/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script> -->
-    <h1 class="p-8 text-5xl">Finished and Upcoming Projects</h1>
+    
+    
+    
     <!-- projects  -->
-    <div class="projects">
+    <h1 class=" p-8 text-5xl text-center" id="project">Finished and Upcoming Projects</h1>
+    <div class="my-auto projects">
       
       <div class="m-4 max-w-sm rounded overflow-hidden shadow-lg bg-purple-700">
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -92,11 +95,22 @@
 
       <div class="m-4 max-w-sm rounded overflow-hidden shadow-lg bg-purple-700">
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <lottie-player class="mx-auto"src="https://assets5.lottiefiles.com/packages/lf20_qj4G7X.json"  background="transparent"  speed="0.5"  style="width: 300px; height: 300px;"  loop autoplay></lottie-player>
+        <lottie-player class="mx-auto"src="https://assets5.lottiefiles.com/packages/lf20_qj4G7X.json"  background="transparent"  speed="0.25"  style="width: 300px; height: 300px;"  loop autoplay></lottie-player>
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">Predict Oil Prices</div>
           <p class=" text-base ">
             Coded a Linear Regression model (without external libraries) that reads data from a csv file and considers factors such as temprature and holidays to predict oil prices. 
+          </p>
+        </div>
+      </div>
+
+      <div class="m-4 max-w-sm rounded overflow-hidden shadow-lg bg-purple-700">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player class="mx-auto" src="https://assets4.lottiefiles.com/packages/lf20_bgclblin.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Understanding Cryptography</div>
+          <p class=" text-base ">
+            A website that explains the theory and the mathematics behind public-key cryptography. 
           </p>
         </div>
       </div>
@@ -107,7 +121,7 @@
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">Ocean Explorer (Under construction)</div>
           <p class=" text-base ">
-             
+            N/A 
           </p>
         </div>
       </div>
@@ -115,12 +129,15 @@
 
 
 
-
-
-
     </div>
     <div class="hobby">
+      <h1 class="text-5xl text-center m-10">Hobbies</h1>
       <p class="hobby-title">During my freetime, I love playing Chess, watch Formula 1 and read books</p>
+    </div>
+
+    <div class="end">
+      <div class="contact"></div>
+      div
     </div>
     </body>
 </html>
