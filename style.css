@@ -47,11 +47,6 @@ p {
   
 }
 .education-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 100px 10px;
-  flex:50%;
   margin: auto;
   align-items: center;
 
@@ -69,9 +64,7 @@ img {
 /* projects  */
 
 .projects {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+  /* flex-direction: row; */
   flex-wrap: wrap;
 }
 
