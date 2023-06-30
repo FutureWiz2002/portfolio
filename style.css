@@ -25,6 +25,10 @@ nav li {
     font-size: larger; 
 }
 
+.intro-container {
+  height: 100vh;
+}
+
 .intro {
   display: flex;
   justify-content: center;
@@ -49,6 +53,7 @@ p {
 .education-container {
   margin: auto;
   align-items: center;
+  height: 100vh;
 
 }
 .uni {
